@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Alex-Tang-Personal-Site/static/css/main.feff1d22.chunk.css",
+    "main.js": "/Alex-Tang-Personal-Site/static/js/main.0683289e.chunk.js",
+    "main.js.map": "/Alex-Tang-Personal-Site/static/js/main.0683289e.chunk.js.map",
+    "runtime-main.js": "/Alex-Tang-Personal-Site/static/js/runtime-main.d764e7e4.js",
+    "runtime-main.js.map": "/Alex-Tang-Personal-Site/static/js/runtime-main.d764e7e4.js.map",
+    "static/js/2.3a7c23d8.chunk.js": "/Alex-Tang-Personal-Site/static/js/2.3a7c23d8.chunk.js",
+    "static/js/2.3a7c23d8.chunk.js.map": "/Alex-Tang-Personal-Site/static/js/2.3a7c23d8.chunk.js.map",
+    "index.html": "/Alex-Tang-Personal-Site/index.html",
+    "static/css/main.feff1d22.chunk.css.map": "/Alex-Tang-Personal-Site/static/css/main.feff1d22.chunk.css.map",
+    "static/js/2.3a7c23d8.chunk.js.LICENSE.txt": "/Alex-Tang-Personal-Site/static/js/2.3a7c23d8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d764e7e4.js",
+    "static/js/2.3a7c23d8.chunk.js",
+    "static/css/main.feff1d22.chunk.css",
+    "static/js/main.0683289e.chunk.js"
+  ]
+}
