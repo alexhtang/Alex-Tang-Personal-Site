@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+.App{
+    text-align: center;
+}
+
+.navBar{
+    align-items: flex-start;
+    min-height: 10px;
+    color:black;
+    text-align: left;
+    list-style: none;
+    display: inline-block;
+    float: left;
+    padding-top: 1%;
+    /* padding-left: 30px; */
+}
+
+.navList{
+    list-style: none;
+    /* padding-left: 30px; */
+}
+
+.header{
+    padding-left: 40px;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    max-width: 400px;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    display: inline-block;
+    float: left;
+    clear: left;
+}
+
+li{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    clear: both;
+    float: left;
+    display: inline-block;
+}
+
+li:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+.container{
+    /* padding-top: 100px; */
+    margin-left: 18%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2.5% 0;
+    justify-content:flex-start;
+}
+
+.pics {
+    margin:5px;
+    max-width: 25%;
+    max-height: auto;
+    object-fit: scale-down;
+}
+
+@media screen and (max-width: 800px){
+    .pics{
+        margin:5px;
+        max-width: 90%;
+        height: auto;
+        object-fit: contain;
+    }
+}
