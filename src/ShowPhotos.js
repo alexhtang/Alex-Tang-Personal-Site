@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component, useState } from 'react';
 import './App.css';
 import Masonry from 'react-masonry-css';
 
@@ -10,6 +10,7 @@ const breakpointColumnsObj = {
 
 function ShowPhotos(props){
 
+    const [colActive, toggleCol] = useState("true");
 
     const pictas = props.photos.map( (apic,idx) => {
         return (
