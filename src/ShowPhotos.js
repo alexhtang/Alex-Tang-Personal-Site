@@ -14,8 +14,8 @@ function ShowPhotos(props){
 
     const pictas = props.photos.map( (apic,idx) => {
         return (
-            <div className='picsdiv'>
-                <img className='pics' key={idx} src={apic.photos[0].original_size.url} alt='from tumblr' />
+            <div className='picsdiv' key={idx}>
+                <img className='pics' src={apic.photos[0].original_size.url} alt='from tumblr' />
             </div>
         );
     }
